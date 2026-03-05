@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee7537cb72ebf41538cac70c0315b578, type: 3}
+  m_Name: SpeakerKnight
+  m_EditorClassIdentifier: Assembly-CSharp::SpeakerData
+  speakerName: Knight
+  portrait: {fileID: 21300000, guid: 6faf2fdeddcb45a44ac0ceb587c55be8, type: 3}
+  nameColor: {r: 0, g: 0.6423671, b: 1, a: 1}
+  side: 0

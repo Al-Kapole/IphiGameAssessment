@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce8893b36f8f24a1db9fcad8ae72c823, type: 3}
+  m_Name: DialogueData
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  speakers:
+  - {fileID: 11400000, guid: 0b3e78cb05549499aad3a84345f2f016, type: 2}
+  - {fileID: 11400000, guid: c4de1d89e1c984af5892c57c606847c0, type: 2}
+  entries:
+  - speakerIndex: 0
+    text: Hello there! Check this, to interact I have to press [interact]! That is
+      crazy, isn't it?
+  - speakerIndex: 1
+    text: Well I do not have to press [interact] to do something! That is your problem
+      since you are a non NPC. I do whatever...
+  - speakerIndex: 0
+    text: So am I a puppet?
+  - speakerIndex: 1
+    text: Yes. And a bad one, since I am going to destroy you and your puppet master
+      without the need of pressing [interact] to do anything.
+  - speakerIndex: 0
+    text: Oh damn...

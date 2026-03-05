@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e457734a1b3ea40b5ac884baac816ddd, type: 3}
+  m_Name: GlyphConfig
+  m_EditorClassIdentifier: Assembly-CSharp::GlyphConfig
+  keyboardSpriteAsset: {fileID: 11400000, guid: 369fd3dfdb0eeb74bad58e940247b70c, type: 2}
+  ps4SpriteAsset: {fileID: 11400000, guid: b33666be69ae1fa48a684d214c0955ba, type: 2}
+  xboxSpriteAsset: {fileID: 11400000, guid: efc20bf390d520c4584f20f1955a6855, type: 2}
+  _mappings:
+  - token: interact
+    keyboardSpriteName: e
+    gamepadSpriteName: buttonWest
+  - token: next
+    keyboardSpriteName: space
+    gamepadSpriteName: buttonSouth
+  - token: skip
+    keyboardSpriteName: tab
+    gamepadSpriteName: rightShoulder
